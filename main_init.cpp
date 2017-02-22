@@ -9,7 +9,12 @@
 #include <iostream>
 using std::cout; using std::endl;
 #include "OpenGL.h"
+#ifdef __APPLE__
 #include </Library/Frameworks/SDL.framework/Headers/SDL.h>
+#endif
+#ifdef __linux__
+#include <SDL2/SDL.h>
+#endif
 
 #include "util.h"
 #include "ortho.h"

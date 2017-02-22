@@ -94,7 +94,7 @@ void ChunkSlice::draw(Chunk* chunk, World* world) {
 		dl.newList(true); // execute = true
 		
 		// set uniform texCoords (an array of vec4's)
-		glUniform4fv(shaders::fog_texCoordsLoc, CHUNK_SIZE*CHUNK_SIZE, texCoords);
+//		glUniform4fv(shaders::fog_texCoordsLoc, CHUNK_SIZE*CHUNK_SIZE, texCoords);
 		
 		// draw quad.
 		// values from glTexCoord are used to select the
