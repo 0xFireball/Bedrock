@@ -32,11 +32,11 @@ namespace ortho {
 				green	= {0,1,0, 1},
 				blue	= {0,0,1, 1},
 				purple	= {.5,0,1, 1};
-	
-	
+
+
 	void orthoOn();
 	void orthoOff();
-	
+
 	void drawImage(GLuint img, int x, int y, int width, int height);
 	void drawRect(color col, int x, int y, int width, int height);
 	void drawString(std::string str, int x, int y, int size, color col);
@@ -45,8 +45,10 @@ namespace ortho {
 		drawString(str, x, y, size, black);
 	}
 	template <typename T> inline std::string toString(T val) {
-		return (std::ostringstream()<<val).str();
+        auto s = std::ostringstream();
+        s << val;
+        return s.str();
 	}
-	
+
 	void drawLoadingScreen(std::string title, std::string status);
 }

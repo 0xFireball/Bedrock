@@ -8,7 +8,7 @@
 
 #pragma once
 
-#include </Library/Frameworks/SDL.framework/Headers/SDL.h>
+#include <SDL2/SDL.h>
 
 namespace input {
 	
