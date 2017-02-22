@@ -46,7 +46,7 @@ void reshape(int, int);
 static inline SDL_Window* createWindow(int width, int height) {
 //	return SDL_SetVideoMode(width, height, 32, SDL_HWSURFACE | SDL_RESIZABLE | SDL_GL_DOUBLEBUFFER | SDL_OPENGL);
     return SDL_CreateWindow(WINDOW_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
-		width, height, SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL | SDL_GL_DOUBLEBUFFER);
+		width, height, SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL);
 }
 
 bool bedrockRunning = true;
@@ -221,7 +221,8 @@ static bool initSDL() {
 	SDL_GL_SetSwapInterval(false);
 
 	if ((displayWindow = createWindow(WINDOW_SIZE)) == NULL) {
-		cout << "Failed to create SDL surface." << endl;
+		cout << "Failed to create SDL window." << endl;
+        cout << "SDL error: " << SDL_GetError() << endl;
 		return false;
 	} else {
         displaySurface = SDL_GetWindowSurface(displayWindow);
