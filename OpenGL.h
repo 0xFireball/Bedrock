@@ -18,6 +18,8 @@
 //#include <GL/glx.h>
 //#include <GL/glxext.h>
 #define GL_GLEXT_PROTOTYPES
+/* Ensure we are using opengl's core profile only */
+#define GL3_PROTOTYPES 1
 #include <SDL_opengl.h>
 #include <SDL_opengl_glext.h>
 #endif

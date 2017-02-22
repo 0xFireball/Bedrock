@@ -44,6 +44,12 @@ void display();
 void reshape(int, int);
 
 static inline SDL_Window* createWindow(int width, int height) {
+
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_ES);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 3);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 1);
+//    SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
+    // SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 32);
 //	return SDL_SetVideoMode(width, height, 32, SDL_HWSURFACE | SDL_RESIZABLE | SDL_GL_DOUBLEBUFFER | SDL_OPENGL);
     return SDL_CreateWindow(WINDOW_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
 		width, height, SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL);
