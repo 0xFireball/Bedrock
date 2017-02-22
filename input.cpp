@@ -9,7 +9,7 @@
 #include "input.h"
 
 void input::handleEvent(SDL_Event& event) {
-	SDLKey key;
+	SDL_Keycode key;
 	switch (event.type) {
 			
 		/// MOUSE BUTTON

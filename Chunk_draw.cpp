@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Hexahedron Games. All rights reserved.
 //
 
+#include "OpenGL.h"
 #include "Chunk.h"
 
 #include "shaders.h"

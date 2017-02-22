@@ -1,399 +1,399 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CodeBlocks_project_file>
-   <FileVersion major="1" minor="6" />
-   <Project>
-      <Option title="Bedrock" />
-      <Option makefile_is_custom="1" />
-      <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\cmake\;" />
-      <Build>
-      <Target title="all">
-         <Option working_dir="/home/nihal/Development/build/Bedrock" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="edit_cache">
-         <Option working_dir="/home/nihal/Development/build/Bedrock" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 edit_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="rebuild_cache">
-         <Option working_dir="/home/nihal/Development/build/Bedrock" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="Bedrock">
-         <Option output="/home/nihal/Development/build/Bedrock/Bedrock" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/nihal/Development/build/Bedrock" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-            <Add directory="/usr/local/include/SDL2" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 Bedrock" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="Bedrock/fast">
-         <Option output="/home/nihal/Development/build/Bedrock/Bedrock" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/nihal/Development/build/Bedrock" />
-         <Option object_output="./" />
-         <Option type="1" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/5" />
-            <Add directory="/usr/include/c++/5/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
-            <Add directory="/usr/local/include" />
-            <Add directory="/usr/local/include/SDL2" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 Bedrock/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      </Build>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Air.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Bear.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Bear.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Block.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Block.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Button.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Button.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Chunk.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Chunk.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/ChunkSlice.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/ChunkSlice.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Chunk_draw.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Clay.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Command.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Dirt.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Dirt.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/DisplayList.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/DisplayList.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/DroppedItem.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/DroppedItem.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Entity.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Entity.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/FlowerGrass.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/FlowerGrass.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/GraphicView.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Grass.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/HUDElement.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Item.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Item.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Leaves.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/LivingEntity.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/LivingEntity.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Menu.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Menu.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/MenuButton.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/MenuButton.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/MineCommand.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/MineCommand.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/MountainGrass.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/MoveCommand.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/MoveCommand.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/NoiseGrid.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/NoiseGrid.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/OcclusionChunk.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/OcclusionChunk.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/OpenGL.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Particle.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Particle.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/PerlinNoise.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/PerlinNoise.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Player.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Player.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Quadruped.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Quadruped.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Rock.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Rock.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/RockyClay.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/RockyDirt.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/RockyDirt.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/ShaderProgram.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/ShaderProgram.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Stone.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/TallGrass.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/TileEntity.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/TileEntity.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Unit.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Unit.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Water.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/Wood.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/World.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/World.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/bear_png.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/blocks_png.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/drawingUtil.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/drawingUtil.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/fog.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/font_png.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/frustum.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/frustum.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/globals.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/globals.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/hud.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/hud.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/input.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/input.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/main.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/main_init.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/math.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/menus_png.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/ortho.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/ortho.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/rock_png.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/shaders.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/shaders.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/textures.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/textures.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/unit_png.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/util.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/util.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/worldGen.cpp">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/worldGen.h">
-         <Option target="Bedrock"/>
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\" />
-      </Unit>
-      <Unit filename="/home/nihal/Development/build/Bedrock/cmake/FindSDL2.cmake">
-          <Option virtualFolder="CMake Files\cmake\" />
-      </Unit>
-   </Project>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Bedrock"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nihal/Development/build/Bedrock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nihal/Development/build/Bedrock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nihal/Development/build/Bedrock"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bedrock">
+				<Option output="/home/nihal/Development/build/Bedrock/Bedrock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nihal/Development/build/Bedrock"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 Bedrock"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Bedrock/fast">
+				<Option output="/home/nihal/Development/build/Bedrock/Bedrock" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nihal/Development/build/Bedrock"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 Bedrock/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/nihal/Development/build/Bedrock/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Air.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Bear.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Bear.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Block.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Block.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Button.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Button.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Chunk.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Chunk.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/ChunkSlice.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/ChunkSlice.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Chunk_draw.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Clay.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Command.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Dirt.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Dirt.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/DisplayList.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/DisplayList.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/DroppedItem.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/DroppedItem.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Entity.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Entity.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/FlowerGrass.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/FlowerGrass.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/GraphicView.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Grass.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/HUDElement.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Item.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Item.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Leaves.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/LivingEntity.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/LivingEntity.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Menu.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Menu.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/MenuButton.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/MenuButton.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/MineCommand.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/MineCommand.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/MountainGrass.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/MoveCommand.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/MoveCommand.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/NoiseGrid.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/NoiseGrid.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/OcclusionChunk.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/OcclusionChunk.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/OpenGL.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Particle.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Particle.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/PerlinNoise.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/PerlinNoise.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Player.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Player.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Quadruped.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Quadruped.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Rock.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Rock.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/RockyClay.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/RockyDirt.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/RockyDirt.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/ShaderProgram.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/ShaderProgram.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Stone.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/TallGrass.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/TileEntity.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/TileEntity.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Unit.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Unit.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Water.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/Wood.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/World.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/World.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/bear_png.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/blocks_png.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/drawingUtil.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/drawingUtil.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/fog.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/font_png.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/frustum.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/frustum.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/globals.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/globals.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/hud.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/hud.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/input.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/input.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/main.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/main_init.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/math.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/menus_png.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/ortho.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/ortho.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/rock_png.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/shaders.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/shaders.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/textures.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/textures.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/unit_png.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/util.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/util.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/worldGen.cpp">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/worldGen.h">
+			<Option target="Bedrock"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nihal/Development/build/Bedrock/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+	</Project>
 </CodeBlocks_project_file>

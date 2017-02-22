@@ -15,7 +15,12 @@
 
 #include <iostream>
 #include "OpenGL.h"
+#ifdef __APPLE__
 #include </Library/Frameworks/SDL.framework/Headers/SDL.h>
+#endif
+#ifdef __linux__
+#include <SDL2/SDL.h>
+#endif
 #include <ctime>
 #include "math.h"
 #include <thread>
