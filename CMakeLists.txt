@@ -111,5 +111,8 @@ set(SOURCE_FILES
         worldGen.cpp
         worldGen.h)
 
+
 add_executable(Bedrock ${SOURCE_FILES})
 target_link_libraries(Bedrock ${SDL2_LIBRARY} ${OPENGL_LIBRARIES})
+# link to SOIL
+target_link_libraries(Bedrock ${CMAKE_SOURCE_DIR}/soil/libsoil.a)
