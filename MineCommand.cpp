@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Hexahedron Games. All rights reserved.
 //
 
+#include <values.h>
 #include "MineCommand.h"
 
 MineCommand::MineCommand(util::vec3i c1, util::vec3i c2) {

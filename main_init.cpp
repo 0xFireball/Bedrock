@@ -43,10 +43,11 @@ void display();
 /* window reshape callback function */
 void reshape(int, int);
 
-static inline SDL_Surface* createWindow(int width, int height) {
-	return SDL_SetVideoMode(width, height, 32, SDL_HWSURFACE | SDL_RESIZABLE | SDL_GL_DOUBLEBUFFER | SDL_OPENGL);
+static inline SDL_Window* createWindow(int width, int height) {
+//	return SDL_SetVideoMode(width, height, 32, SDL_HWSURFACE | SDL_RESIZABLE | SDL_GL_DOUBLEBUFFER | SDL_OPENGL);
+    return SDL_CreateWindow(WINDOW_TITLE, SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
+		width, height, SDL_WINDOW_RESIZABLE | SDL_WINDOW_OPENGL | SDL_GL_DOUBLEBUFFER);
 }
-static SDL_Surface* displaySuface;
 
 bool bedrockRunning = true;
 
@@ -70,8 +71,8 @@ int main(int argc, char** argv) {
 					// exit the game
 					bedrockRunning = false;
 					break;
-					
-				case SDL_VIDEORESIZE:
+
+				case SDL_WINDOWEVENT_RESIZED:
 					// mark chunks for redrawing
 					Chunk* chunk;
 					for (int cx = 0; cx < WORLD_CX; cx++)
@@ -82,8 +83,9 @@ int main(int argc, char** argv) {
 								chunk->needsRedraw = true;
 							}
 					world.firstDraw = true;
-					displaySuface = createWindow(event.resize.w, event.resize.h); // create new window
-					reshape(event.resize.w, event.resize.h); // reshape viewport & stuff
+					displayWindow = createWindow(event.window.data1, event.window.data2); // create new window
+                    displaySurface = SDL_GetWindowSurface(displayWindow);
+					reshape(event.window.data1, event.window.data2); // reshape viewport & stuff
 					initOpenGL(); // reload textures, shaders, etc.
 					if (world.firstDraw)
 						ortho::drawLoadingScreen("Entering world", "");
@@ -215,12 +217,15 @@ static bool initSDL() {
 	SDL_GL_SetAttribute(SDL_GL_MULTISAMPLESAMPLES, 4);
 #endif
 	SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 32);
-	SDL_GL_SetAttribute(SDL_GL_SWAP_CONTROL, false); // don't limit FPS
-	
-	if ((displaySuface = createWindow(WINDOW_SIZE)) == NULL) {
+//	SDL_GL_SetAttribute(SDL_GL_SWAP_CONTROL, false); // don't limit FPS
+	SDL_GL_SetSwapInterval(false);
+
+	if ((displayWindow = createWindow(WINDOW_SIZE)) == NULL) {
 		cout << "Failed to create SDL surface." << endl;
 		return false;
-	}
+	} else {
+        displaySurface = SDL_GetWindowSurface(displayWindow);
+    }
 	reshape(WINDOW_SIZE);
 	
 	// success!

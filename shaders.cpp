@@ -6,7 +6,6 @@
 //  Copyright (c) 2013 Hexahedron Games. All rights reserved.
 //
 
-#include <SDL_opengles2_gl2.h>
 #include "shaders.h"
 
 // shader sources //

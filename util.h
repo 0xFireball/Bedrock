@@ -14,6 +14,12 @@
 #include <climits>
 
 #include "ortho.h"
+#ifdef __APPLE__
+#include </Library/Frameworks/SDL.framework/Headers/SDL.h>
+#endif
+#ifdef __linux__
+#include <SDL2/SDL.h>
+#endif
 
 namespace util {
 	
@@ -352,3 +358,7 @@ CONCAT_FUNCS(long)
 CONCAT_FUNCS(float)
 CONCAT_FUNCS(double)
 #undef CONCAT_FUNCS
+
+// important references
+static SDL_Window* displayWindow;
+static SDL_Surface* displaySurface;

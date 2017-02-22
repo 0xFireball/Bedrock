@@ -18,11 +18,19 @@
 #include <vector>
 #include <iostream>
 #include <fstream>
+#ifdef __APPLE__
 #include </Library/Frameworks/SDL.framework/Headers/SDL.h>
+#endif
+#ifdef __linux__
+
+#include <SDL2/SDL.h>
+
+#endif
 //#include <zlib.h> // unused
 
 void util::swapBuffers() {
-	SDL_GL_SwapBuffers();
+//	SDL_GL_SwapBuffers();
+	SDL_GL_SwapWindow()
 }
 
 float intbound(float s, float ds) {

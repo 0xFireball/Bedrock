@@ -9,6 +9,7 @@
 #include "NoiseGrid.h"
 
 #include <stdlib.h>
+#include <cstdio>
 #include "math.h"
 
 NoiseGrid::NoiseGrid(int w, int h, unsigned seed, Interpolation i):width(w),height(h),iType(i),grid(width, std::vector<float>()) {
