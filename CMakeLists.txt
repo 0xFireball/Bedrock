@@ -23,8 +23,6 @@ set(SOURCE_FILES
         Chunk.cpp
         Chunk.h
         Chunk_draw.cpp
-        ChunkSlice.cpp
-        ChunkSlice.h
         Clay.h
         Command.h
         Dirt.cpp

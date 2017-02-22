@@ -8,7 +8,7 @@
 
 #include "textures.h"
 
-#include "SOIL.h"
+#include "soil/inc/SOIL/SOIL.h"
 #include <string>
 
 GLuint textures::blocks, textures::unit, textures::bear;

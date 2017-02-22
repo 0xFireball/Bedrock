@@ -113,12 +113,6 @@
 		<Unit filename="/home/nihal/Development/build/Bedrock/Chunk.h">
 			<Option target="Bedrock"/>
 		</Unit>
-		<Unit filename="/home/nihal/Development/build/Bedrock/ChunkSlice.cpp">
-			<Option target="Bedrock"/>
-		</Unit>
-		<Unit filename="/home/nihal/Development/build/Bedrock/ChunkSlice.h">
-			<Option target="Bedrock"/>
-		</Unit>
 		<Unit filename="/home/nihal/Development/build/Bedrock/Chunk_draw.cpp">
 			<Option target="Bedrock"/>
 		</Unit>

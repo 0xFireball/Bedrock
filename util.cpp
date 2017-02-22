@@ -30,7 +30,7 @@
 
 void util::swapBuffers() {
 //	SDL_GL_SwapBuffers();
-	SDL_GL_SwapWindow()
+	SDL_GL_SwapWindow(displayWindow);
 }
 
 float intbound(float s, float ds) {
